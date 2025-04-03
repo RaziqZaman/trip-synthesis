@@ -4,6 +4,7 @@ from torch.utils.data import DataLoader
 import torch.nn.functional as F
 
 # Architecture from https://arxiv.org/abs/2208.01403
+# testing
 
 class VAE(nn.Module):
     def __init__(self, input_dim, latent_dim=32):
